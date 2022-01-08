@@ -1,0 +1,27 @@
+.form {
+  position: relative;
+}
+
+.input {
+  width: 250px;
+  padding: 15px 15px 15px 35px;
+  border: 1px solid #F3F3F3;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+  &::placeholder {
+    font-size: 14px;
+    line-height: 17px;
+    color: #C4C4C4;
+  }
+}
+
+.icon {
+  position: absolute;
+  display: inline-flex;
+  width: 15px;
+  height: 15px;
+
+  left: 10px;
+  top: 15px
+}
